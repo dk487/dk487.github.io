@@ -1,2 +1,9 @@
 url: http://dk487.githib.io
 baseurl: ""
+
+defaults:
+    -
+        values:
+            layout: default
+
+lang: en
