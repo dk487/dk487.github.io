@@ -26,6 +26,7 @@ Jekyll'а используют в функции `relative_url`.
 можно использовать какой-то плагин. Не наша тема, потому что плагины
 несовместимы с Github Pages. Но ещё можно обойтись средствами Liquid'а.
 
+{% raw %}
 ```liquid
 {%      assign root_prefix = ''
 %}{%    assign root_subfolders = page.url | split: '/' | size | minus: 2
@@ -37,6 +38,7 @@ Jekyll'а используют в функции `relative_url`.
     <head>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="{{ root_prefix }}css/main.css">
-``` 
+```
+{% endraw %}
 
 Выглядит коряво, но работает.
