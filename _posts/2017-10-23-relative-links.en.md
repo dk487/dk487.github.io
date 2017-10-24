@@ -18,16 +18,16 @@ A traditional simple example.
 
 How should a link to CSS looks?
 
-| Source page               | `relative_url`    | Proper URL            |
+| Source page               | `relative_url`    | Proper link           |
 |---------------------------|-------------------|-----------------------|
 | /about.html               | /css/main.css     | css/main.css          |
 | /contact/main-office.html | /css/main.css     | ../css/main.css       |
 | /2017/10/23/example.html  | /css/main.css     | ../../../css/main.css |
 
 Main use case for links like that — «site on USB pen drive», possibility
-to open browser without web server from local files.
+to open browser without web server, just from local files.
 
-Damn, that's one of the main ideas of a static build!
+Damn, that's one of the key features of a static build!
 
 Also that gives possibility to host site in any subfolder of any
 other site _without rebuilding_ with new `baseurl` value. Someone
