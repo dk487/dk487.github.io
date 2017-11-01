@@ -1,4 +1,4 @@
-url: http://dk487.githib.io
+url: https://dk487.github.io
 baseurl: ""
 
 defaults:
@@ -16,3 +16,5 @@ defaults:
       layout: page
 
 lang: en
+title: FIXME
+description: FIXME
