@@ -2,7 +2,7 @@
 title: Hello, world!
 date: 2017-10-23 14:43:00 +0300
 lang: en
-source: 2017-10-23-hello-world.ru.md
+translation_of: 2017-10-23-hello-world.ru.md
 ---
 
 I decided to start yet another blog. Will write about Linux, about layouting,

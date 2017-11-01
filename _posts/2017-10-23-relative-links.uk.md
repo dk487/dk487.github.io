@@ -2,7 +2,7 @@
 title: Відносні посилання
 date: 2017-10-23 15:34:19 +0300
 lang: uk
-source: 2017-10-23-relative-links.ru.md
+translation_of: 2017-10-23-relative-links.ru.md
 ---
 
 Є одна тема у Jekyll'і, що бісить мене. І ця тема — посилання.
