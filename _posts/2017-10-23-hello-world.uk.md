@@ -2,7 +2,7 @@
 title: Привіт, світ!
 date: 2017-10-23 14:43:00 +0300
 lang: uk
-translation_of: 2017-10-23-hello-world.ru.md
+translation_of: _posts/2017-10-23-hello-world.ru.md
 ---
 
 Я вирішив завести собі ще один блоґ. Буду писати про Linux, про верстку,

@@ -2,7 +2,7 @@
 title: Relative links
 date: 2017-10-23 15:34:19 +0300
 lang: en
-translation_of: 2017-10-23-relative-links.ru.md
+translation_of: _posts/2017-10-23-relative-links.ru.md
 ---
 
 There is one subject in Jekyll that enrages me. And the subject is links.
