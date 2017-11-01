@@ -1,0 +1,10 @@
+{%      case page.lang
+%}{%        when 'en'
+%}{%            include date_en.html date=include.date
+%}{%        when 'uk'
+%}{%            include date_uk.html date=include.date
+%}{%        when 'ru'
+%}{%            include date_ru.html date=include.date
+%}{%        else
+%}{{            include.date | date: '%Y-%m-%d'
+}}{%    endcase %}

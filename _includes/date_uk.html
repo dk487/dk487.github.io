@@ -1,0 +1,17 @@
+{{      include.date | date: '%-d'
+}}{%    assign month = include.date | date: '%m'
+%}{%    case month
+%}{%        when '01' %} січня {%
+            when '02' %} лютого {%
+            when '03' %} березня {%
+            when '04' %} квітня {%
+            when '05' %} травня {%
+            when '06' %} червня {%
+            when '07' %} липня {%
+            when '08' %} серпня {%
+            when '09' %} вересня {%
+            when '10' %} жовтня {%
+            when '11' %} листопада {%
+            when '12' %} грудня {%
+        endcase
+%}{{    include.date | date: '%Y' }}
